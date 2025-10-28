@@ -1,0 +1,304 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    GUIDE D'INSTALLATION
+                  Simulateur de Vol Français
+                        Version 1.0.0
+═══════════════════════════════════════════════════════════════════════════════
+
+Ce guide vous accompagnera pas à pas dans l'installation du Simulateur de Vol
+Français sur votre ordinateur Windows.
+
+═══════════════════════════════════════════════════════════════════════════════
+1. CONFIGURATION REQUISE
+═══════════════════════════════════════════════════════════════════════════════
+
+Avant de commencer l'installation, assurez-vous que votre ordinateur répond
+aux exigences minimales suivantes :
+
+SYSTÈME D'EXPLOITATION
+  - Windows 10 (64 bits) ou supérieur
+  - Windows 11 est entièrement supporté
+
+MATÉRIEL
+  - Processeur : Intel Core i3 ou équivalent AMD
+  - Mémoire vive : 4 GB minimum (8 GB recommandé)
+  - Espace disque : 500 MB d'espace libre
+  - Carte son : Carte son compatible Windows
+  - Connexion Internet : Requise pour le téléchargement initial uniquement
+
+LOGICIELS
+  - .NET 8.0 Runtime (sera installé automatiquement si absent)
+  - Lecteur d'écran (NVDA recommandé, JAWS ou Narrateur Windows supportés)
+
+═══════════════════════════════════════════════════════════════════════════════
+2. TÉLÉCHARGEMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+Vous pouvez télécharger le simulateur de deux manières :
+
+OPTION A : INSTALLATEUR AUTOMATIQUE (RECOMMANDÉ)
+  Téléchargez le fichier SimulateurVolFR_Setup.exe depuis le site officiel.
+  Ce fichier contient tout le nécessaire pour une installation automatique.
+
+OPTION B : ARCHIVE ZIP
+  Téléchargez l'archive SimulateurVolFR.zip pour une installation manuelle.
+  Cette option est recommandée pour les utilisateurs avancés.
+
+═══════════════════════════════════════════════════════════════════════════════
+3. INSTALLATION AVEC L'INSTALLATEUR AUTOMATIQUE
+═══════════════════════════════════════════════════════════════════════════════
+
+L'installateur automatique est entièrement accessible et vous guidera vocalement
+à chaque étape. Voici le processus détaillé :
+
+ÉTAPE 1 : LANCEMENT DE L'INSTALLATEUR
+  1. Localisez le fichier SimulateurVolFR_Setup.exe dans vos téléchargements
+  2. Appuyez sur Entrée pour lancer l'installateur
+  3. Si Windows affiche un avertissement de sécurité, cliquez sur "Plus d'infos"
+     puis "Exécuter quand même"
+  4. L'installateur annoncera : "Bienvenue dans l'installation du Simulateur
+     de Vol Français"
+
+ÉTAPE 2 : ACCEPTATION DE LA LICENCE
+  1. L'installateur lira les termes de la licence
+  2. Appuyez sur Tab pour naviguer jusqu'au bouton "J'accepte"
+  3. Appuyez sur Entrée pour accepter
+
+ÉTAPE 3 : CHOIX DU DOSSIER D'INSTALLATION
+  1. Par défaut, le simulateur sera installé dans :
+     C:\Program Files\SimulateurVolFR
+  2. Pour changer le dossier, appuyez sur Tab puis Entrée sur "Parcourir"
+  3. Sinon, appuyez sur Tab jusqu'à "Suivant" puis Entrée
+
+ÉTAPE 4 : VÉRIFICATION DES DÉPENDANCES
+  1. L'installateur vérifiera si .NET 8.0 Runtime est installé
+  2. Si absent, il proposera de l'installer automatiquement
+  3. Acceptez en appuyant sur Entrée sur "Installer"
+  4. Patientez pendant l'installation de .NET (environ 2 minutes)
+
+ÉTAPE 5 : INSTALLATION DES FICHIERS
+  1. L'installateur copiera tous les fichiers nécessaires
+  2. Une barre de progression vocale vous tiendra informé
+  3. Cette étape prend environ 30 secondes
+
+ÉTAPE 6 : CRÉATION DES RACCOURCIS
+  1. L'installateur créera automatiquement :
+     - Un raccourci sur le Bureau
+     - Un raccourci dans le Menu Démarrer
+     - Une entrée dans la liste des programmes
+
+ÉTAPE 7 : FINALISATION
+  1. L'installateur annoncera : "Installation terminée avec succès"
+  2. Cochez "Lancer le Simulateur de Vol Français" si vous souhaitez le
+     démarrer immédiatement
+  3. Appuyez sur Entrée sur "Terminer"
+
+═══════════════════════════════════════════════════════════════════════════════
+4. INSTALLATION MANUELLE (ARCHIVE ZIP)
+═══════════════════════════════════════════════════════════════════════════════
+
+Si vous avez téléchargé l'archive ZIP, suivez ces étapes :
+
+ÉTAPE 1 : EXTRACTION DE L'ARCHIVE
+  1. Localisez le fichier SimulateurVolFR.zip
+  2. Clic droit > Extraire tout
+  3. Choisissez un dossier de destination (par exemple : C:\SimulateurVolFR)
+  4. Cliquez sur "Extraire"
+
+ÉTAPE 2 : INSTALLATION DE .NET 8.0 RUNTIME
+  1. Si vous n'avez pas .NET 8.0 Runtime installé, téléchargez-le depuis :
+     https://dotnet.microsoft.com/download/dotnet/8.0
+  2. Choisissez ".NET Desktop Runtime 8.0" pour Windows x64
+  3. Lancez l'installateur téléchargé
+  4. Suivez les instructions à l'écran
+
+ÉTAPE 3 : CRÉATION D'UN RACCOURCI
+  1. Naviguez dans le dossier d'extraction
+  2. Localisez le fichier SimulateurVolFR.exe
+  3. Clic droit > Envoyer vers > Bureau (créer un raccourci)
+
+═══════════════════════════════════════════════════════════════════════════════
+5. CONFIGURATION DU LECTEUR D'ÉCRAN
+═══════════════════════════════════════════════════════════════════════════════
+
+Pour une expérience optimale, nous recommandons fortement l'utilisation de NVDA.
+
+INSTALLATION DE NVDA (SI NON INSTALLÉ)
+  1. Téléchargez NVDA depuis : https://www.nvaccess.org/download/
+  2. Lancez l'installateur NVDA
+  3. Suivez les instructions vocales
+  4. NVDA est gratuit et open source
+
+CONFIGURATION DE NVDA POUR LE SIMULATEUR
+  1. Lancez NVDA (il se lance automatiquement au démarrage de Windows)
+  2. Appuyez sur NVDA+N pour ouvrir le menu NVDA
+  3. Allez dans Préférences > Paramètres
+  4. Dans la catégorie "Parole", réglez la vitesse selon vos préférences
+  5. Dans la catégorie "Clavier", assurez-vous que "Parler les caractères
+     lors de la frappe" est activé
+
+UTILISATION AVEC JAWS
+  Le simulateur est également compatible avec JAWS. Aucune configuration
+  spéciale n'est requise. Assurez-vous simplement que JAWS est lancé avant
+  de démarrer le simulateur.
+
+UTILISATION AVEC LE NARRATEUR WINDOWS
+  Le Narrateur Windows intégré à Windows 10/11 fonctionne également. Pour
+  l'activer, appuyez sur Ctrl+Windows+Entrée.
+
+═══════════════════════════════════════════════════════════════════════════════
+6. PREMIER LANCEMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+Après l'installation, voici comment lancer le simulateur pour la première fois :
+
+LANCEMENT DU SIMULATEUR
+  1. Appuyez sur la touche Windows
+  2. Tapez "Simulateur de Vol"
+  3. Appuyez sur Entrée
+  
+  OU
+  
+  1. Utilisez le raccourci sur le Bureau
+  2. Appuyez sur Entrée
+
+PREMIER DÉMARRAGE
+  1. Le simulateur se lancera et annoncera :
+     "Bienvenue dans le Simulateur de Vol Français"
+  2. Un message vous informera que c'est votre première utilisation
+  3. Le simulateur proposera un tutoriel guidé
+  4. Nous recommandons fortement de suivre ce tutoriel
+
+CONFIGURATION INITIALE
+  Le simulateur détectera automatiquement :
+  - Votre lecteur d'écran actif
+  - Votre carte son
+  - Vos contrôleurs de jeu (si présents)
+
+═══════════════════════════════════════════════════════════════════════════════
+7. VÉRIFICATION DE L'INSTALLATION
+═══════════════════════════════════════════════════════════════════════════════
+
+Pour vous assurer que tout fonctionne correctement :
+
+TEST AUDIO
+  1. Lancez le simulateur
+  2. Appuyez sur Alt pour ouvrir le menu
+  3. Allez dans Paramètres > Audio
+  4. Appuyez sur "Tester le son"
+  5. Vous devriez entendre un son de test
+
+TEST DE LA SYNTHÈSE VOCALE
+  1. Dans le menu principal, appuyez sur F1
+  2. Le simulateur devrait lire l'aide vocalement
+  3. Si vous n'entendez rien, vérifiez que votre lecteur d'écran est actif
+
+TEST DES CONTRÔLES
+  1. Créez un nouveau vol (F2)
+  2. Sélectionnez un avion et un aéroport
+  3. Démarrez les moteurs (Ctrl+E)
+  4. Vous devriez entendre le son du moteur
+
+═══════════════════════════════════════════════════════════════════════════════
+8. DÉPANNAGE DE L'INSTALLATION
+═══════════════════════════════════════════════════════════════════════════════
+
+PROBLÈME : L'INSTALLATEUR NE SE LANCE PAS
+  Solution 1 : Désactivez temporairement votre antivirus
+  Solution 2 : Clic droit sur l'installateur > Exécuter en tant qu'administrateur
+  Solution 3 : Téléchargez à nouveau l'installateur (le fichier peut être corrompu)
+
+PROBLÈME : ERREUR ".NET RUNTIME NON TROUVÉ"
+  Solution : Installez manuellement .NET 8.0 Runtime depuis :
+  https://dotnet.microsoft.com/download/dotnet/8.0
+  Choisissez ".NET Desktop Runtime 8.0" pour Windows x64
+
+PROBLÈME : LE SIMULATEUR NE SE LANCE PAS
+  Solution 1 : Vérifiez que .NET 8.0 Runtime est bien installé
+  Solution 2 : Redémarrez votre ordinateur
+  Solution 3 : Réinstallez le simulateur
+  Solution 4 : Vérifiez les journaux d'erreur dans :
+              C:\Users\VotreNom\AppData\Local\SimulateurVolFR\Logs
+
+PROBLÈME : PAS DE SON
+  Solution 1 : Vérifiez que votre carte son fonctionne (testez avec un autre logiciel)
+  Solution 2 : Vérifiez le volume dans les paramètres Windows
+  Solution 3 : Dans le simulateur, allez dans Paramètres > Audio et vérifiez
+              que le volume n'est pas à zéro
+
+PROBLÈME : LE LECTEUR D'ÉCRAN NE LIT PAS LE SIMULATEUR
+  Solution 1 : Assurez-vous que le lecteur d'écran est lancé AVANT le simulateur
+  Solution 2 : Redémarrez le simulateur
+  Solution 3 : Mettez à jour votre lecteur d'écran vers la dernière version
+
+═══════════════════════════════════════════════════════════════════════════════
+9. DÉSINSTALLATION
+═══════════════════════════════════════════════════════════════════════════════
+
+Si vous souhaitez désinstaller le simulateur :
+
+MÉTHODE 1 : VIA WINDOWS
+  1. Ouvrez les Paramètres Windows (Windows+I)
+  2. Allez dans Applications > Applications et fonctionnalités
+  3. Recherchez "Simulateur de Vol Français"
+  4. Cliquez sur "Désinstaller"
+  5. Confirmez la désinstallation
+
+MÉTHODE 2 : VIA LE PANNEAU DE CONFIGURATION
+  1. Ouvrez le Panneau de configuration
+  2. Allez dans Programmes > Désinstaller un programme
+  3. Sélectionnez "Simulateur de Vol Français"
+  4. Cliquez sur "Désinstaller"
+
+SUPPRESSION COMPLÈTE
+  Pour supprimer également vos données personnelles (vols sauvegardés, paramètres) :
+  1. Appuyez sur Windows+R
+  2. Tapez : %LOCALAPPDATA%\SimulateurVolFR
+  3. Appuyez sur Entrée
+  4. Supprimez le dossier qui s'ouvre
+
+═══════════════════════════════════════════════════════════════════════════════
+10. MISES À JOUR
+═══════════════════════════════════════════════════════════════════════════════
+
+Le simulateur vérifie automatiquement les mises à jour au démarrage.
+
+MISE À JOUR AUTOMATIQUE
+  1. Lorsqu'une mise à jour est disponible, le simulateur vous en informera
+  2. Vous pouvez choisir de l'installer immédiatement ou plus tard
+  3. La mise à jour se télécharge et s'installe automatiquement
+  4. Vos données personnelles sont préservées
+
+MISE À JOUR MANUELLE
+  1. Téléchargez la dernière version depuis le site officiel
+  2. Lancez l'installateur
+  3. Il détectera l'installation existante et proposera une mise à jour
+  4. Vos paramètres et vols sauvegardés seront conservés
+
+═══════════════════════════════════════════════════════════════════════════════
+11. SUPPORT ET AIDE
+═══════════════════════════════════════════════════════════════════════════════
+
+Si vous rencontrez des difficultés lors de l'installation :
+
+DOCUMENTATION
+  - Consultez le fichier README.md pour plus d'informations
+  - Lisez le guide de démarrage rapide dans le dossier docs
+
+SUPPORT TECHNIQUE
+  - Email : support@simulateurvolFR.fr
+  - Forum : https://forum.simulateurvolFR.fr
+  - Discord : https://discord.gg/simulateurvolFR
+
+COMMUNAUTÉ
+  Rejoignez notre communauté d'utilisateurs aveugles et malvoyants passionnés
+  d'aviation pour échanger des conseils et des astuces.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Merci d'avoir choisi le Simulateur de Vol Français !
+Nous espérons que vous apprécierez votre expérience de vol.
+
+Bon vol et ciel dégagé ! ✈️
+
+═══════════════════════════════════════════════════════════════════════════════
+
