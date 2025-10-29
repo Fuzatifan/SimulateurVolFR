@@ -1,244 +1,250 @@
-# Simulateur de Vol Français
+# 🛩️ Simulateur de Vol Français
 
-Un simulateur de vol accessible conçu spécialement pour les personnes aveugles et malvoyantes, avec un maximum de réalisme et une interface entièrement en français.
+**Simulateur de vol accessible en français avec intelligence artificielle, réalité virtuelle, école de pilotage et gestion de compagnie aérienne**
 
-## Caractéristiques principales
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)](https://dotnet.microsoft.com/)
+[![C#](https://img.shields.io/badge/C%23-11.0-239120)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
-### Accessibilité totale
-- **Support complet des lecteurs d'écran** (NVDA, JAWS, Narrateur Windows)
-- **Synthèse vocale française** intégrée pour toutes les annonces
-- **Navigation 100% au clavier** sans besoin de souris
-- **Annonces vocales contextuelles** pour chaque action
-- **Interface optimisée** pour une utilisation sans vision
+## 🌟 Caractéristiques principales
 
-### Réalisme de simulation
-- **Physique de vol réaliste** avec aérodynamique complète
-- **Modèles d'avions détaillés** (Cessna 172, Airbus A320, Boeing 737)
-- **Base de données d'aéroports** français et internationaux
-- **Système de navigation GPS** avec calcul automatique de routes
-- **Communications radio** réalistes avec la tour de contrôle
-- **Météo dynamique** affectant le vol
-- **Consommation de carburant** et gestion des systèmes
+### ♿ 100% Accessible
+- **Support complet des lecteurs d'écran** (NVDA, JAWS)
+- **Synthèse vocale française** intégrée
+- **Navigation 100% au clavier**
+- **Audio spatial 3D** pour l'orientation
+- **Descriptions vocales** de tous les éléments
 
-### Sons immersifs
-- **Sons de moteurs** spécifiques à chaque avion
-- **Ambiance cockpit** réaliste
-- **Alertes sonores** pour tous les systèmes
-- **Communications radio** avec effets audio
-- **Sons d'environnement** (vent, turbulences, etc.)
+### 🤖 Intelligence Artificielle
+- **Copilote virtuel** alimenté par GPT-4
+- **Conversations naturelles** en français
+- **4 personnalités** (Professionnel, Sympathique, Instructeur, Humoristique)
+- **Assistance contextuelle** en temps réel
+- **Check-lists vocales** automatiques
 
-## Configuration requise
+### 🥽 Réalité Virtuelle
+- **Support VR complet** (Meta Quest, HTC Vive, Valve Index)
+- **Cockpit 3D immersif** à échelle 1:1
+- **Suivi des mains** (Hand Tracking)
+- **Retour haptique** réaliste
+- **Audio spatial 3D** positionné
 
-### Système
-- **OS**: Windows 10 ou supérieur (64 bits)
-- **Processeur**: Intel Core i3 ou équivalent
-- **RAM**: 4 GB minimum, 8 GB recommandé
-- **Espace disque**: 500 MB
-- **Carte son**: Carte son compatible Windows
+### 🎓 École de Pilotage
+- **15 leçons structurées** pour la licence PPL
+- **Instructeur virtuel exigeant** avec feedback en temps réel
+- **Système d'évaluation rigoureux** (notes, briefings, débriefings)
+- **3 niveaux de licence** (PPL, CPL, ATPL)
+- **Certificats officiels** avec numéros de licence
 
-### Logiciels
-- **.NET 8.0 Runtime** (inclus dans l'installateur)
-- **Lecteur d'écran** (NVDA recommandé, gratuit)
+### ✈️ Gestion de Compagnie Aérienne
+- **Créez votre compagnie** avec nom et code IATA
+- **Achetez et vendez des avions** (300k€ à 450M€)
+- **Programmez des vols** avec passagers
+- **Économie réaliste** (revenus, coûts, profits)
+- **Système de maintenance** et réputation
+- **Statistiques complètes** de gestion
 
-## Installation
+### 📻 Communications Radio Réalistes
+- **Phraséologie OACI standard** complète
+- **4 fréquences** (ATIS, Ground, Tower, Approach)
+- **Génération automatique d'ATIS** avec météo
+- **Voix ATC distincte** professionnelle
+- **9 sons radio** (bip, squelch, interférences)
 
-### Méthode 1: Installateur automatique (recommandé)
-1. Téléchargez `SimulateurVolFR_Setup.exe`
-2. Exécutez l'installateur
-3. Suivez les instructions vocales
-4. Le simulateur se lancera automatiquement après l'installation
+### 🌦️ Météo Dynamique
+- **Intégration API OpenWeatherMap** en temps réel
+- **Génération de METAR** standard
+- **Impact réel sur le vol** (vent, turbulences, densité)
+- **Conditions VFR/IFR** calculées automatiquement
 
-### Méthode 2: Compilation depuis les sources
-1. Installez .NET 8.0 SDK
-2. Clonez le dépôt GitHub
-3. Ouvrez un terminal dans le dossier `src`
-4. Exécutez: `dotnet build -c Release`
-5. L'exécutable sera dans `bin/Release/net8.0-windows/`
+### 🎯 Système de Missions
+- **13 missions complètes** avec objectifs
+- **5 types** (Apprentissage, Transport, Tourisme, Précision, Météo)
+- **Notation sur 100 points** avec bonus
+- **Validation automatique** des objectifs
 
-## Guide de démarrage rapide
+## 📊 Contenu
 
-### Premier lancement
-1. Lancez l'application (elle annoncera "Bienvenue dans le simulateur de vol français")
-2. Appuyez sur **Alt** pour accéder au menu
-3. Sélectionnez **Fichier > Nouveau vol** (ou appuyez sur **F2**)
+### Appareils (42 au total)
+- **25 avions** (légers, jets d'affaires, régionaux, moyen-courriers, long-courriers, cargo)
+- **17 hélicoptères** (légers, utilitaires, moyens, lourds, militaires)
 
-### Créer un vol
-1. Sélectionnez un **avion** dans la liste
-2. Choisissez un **aéroport de départ**
-3. Choisissez un **aéroport de destination** (optionnel)
-4. Confirmez pour initialiser le vol
-
-### Démarrer les moteurs
-1. Ouvrez le menu **Vol > Démarrer moteurs**
-2. Ou utilisez le raccourci clavier **Ctrl+E**
-3. Attendez l'annonce "Moteurs démarrés"
-
-### Décoller
-1. Augmentez les gaz avec la touche **+** (pavé numérique)
-2. Attendez d'atteindre la vitesse de décollage
-3. Tirez doucement sur le manche avec **Flèche Bas**
-4. L'avion décollera automatiquement
-
-### Piloter
-- **Flèches Haut/Bas**: Contrôle du tangage (monter/descendre)
-- **Flèches Gauche/Droite**: Contrôle du roulis (tourner)
-- **+/-** (pavé numérique): Augmenter/diminuer les gaz
-- **G**: Sortir/rentrer le train d'atterrissage
-- **F**: Régler les volets
-- **B**: Freins
-
-### Obtenir des informations
-- **I**: Informations de vol actuelles
-- **N**: État de la navigation
-- **R**: Ouvrir la radio
-- **F1**: Aide contextuelle
-
-## Raccourcis clavier complets
-
-### Menu et navigation
-- **Alt**: Accéder au menu principal
-- **F1**: Aide
-- **F2**: Nouveau vol
-- **F3**: Charger un vol
-- **F4**: Sauvegarder le vol
-- **Échap**: Quitter (avec confirmation)
-
-### Contrôles de vol
-- **Flèche Haut**: Piquer (descendre le nez)
-- **Flèche Bas**: Cabrer (lever le nez)
-- **Flèche Gauche**: Incliner à gauche
-- **Flèche Droite**: Incliner à droite
-- **+** (pavé numérique): Augmenter les gaz
-- **-** (pavé numérique): Diminuer les gaz
-- **0** (pavé numérique): Gaz au ralenti
-- **Entrée** (pavé numérique): Plein gaz
-
-### Systèmes
-- **Ctrl+E**: Démarrer/arrêter les moteurs
-- **G**: Train d'atterrissage
-- **F**: Volets (cycle entre les positions)
-- **B**: Freins
-- **A**: Pilote automatique
-- **Ctrl+A**: Atterrissage automatique
-
-### Informations
-- **I**: Informations de vol
-- **N**: Navigation
-- **R**: Radio
-- **M**: Météo
-- **Ctrl+I**: Instruments détaillés
-
-### Radio
-- **Ctrl+R**: Ouvrir le panneau radio
-- **1**: Demander autorisation de démarrage
-- **2**: Demander autorisation de roulage
-- **3**: Demander autorisation de décollage
-- **4**: Demander autorisation d'atterrissage
-- **5**: Écouter l'ATIS
-
-## Aéroports disponibles
-
-Le simulateur inclut les principaux aéroports français :
-
-- **LFPG** - Paris Charles de Gaulle
-- **LFPO** - Paris Orly
-- **LFML** - Marseille Provence
-- **LFLL** - Lyon Saint-Exupéry
-- **LFBD** - Bordeaux Mérignac
-
-D'autres aéroports peuvent être ajoutés via la base de données.
-
-## Avions disponibles
-
-### Cessna 172 Skyhawk
-Avion léger idéal pour l'apprentissage. Vitesse de croisière: 122 nœuds.
-
-### Airbus A320
-Avion de ligne moyen-courrier. Vitesse de croisière: 447 nœuds. Capacité: 180 passagers.
-
-### Boeing 737-800
-Avion de ligne moyen-courrier. Vitesse de croisière: 453 nœuds. Capacité: 189 passagers.
-
-## Conseils pour une meilleure expérience
+### Sites (100 au total)
+- **62 aéroports internationaux** (6 continents, 35 pays)
+- **38 aérodromes** (France, Europe, DOM-TOM)
 
 ### Audio
-- Utilisez un **casque audio** pour une immersion maximale
-- Réglez le **volume** à un niveau confortable
-- Les **sons 3D** vous aideront à vous orienter
+- **32 sons réalistes** (23 moteurs + 9 radio)
+- **Synthèse vocale** française de haute qualité
+- **Audio spatial 3D** immersif
 
-### Lecteur d'écran
-- **NVDA** est recommandé (gratuit et open source)
-- Configurez la **vitesse de parole** selon vos préférences
-- Activez les **annonces de progression** dans NVDA
+## 🚀 Installation
 
-### Apprentissage
-- Commencez avec le **Cessna 172** pour apprendre les bases
-- Utilisez le **pilote automatique** (touche A) pour vous familiariser
-- Écoutez attentivement les **annonces vocales**
-- Consultez l'**aide contextuelle** (F1) en cas de doute
+### Prérequis
+- **Windows 10/11** (64-bit)
+- **.NET 8.0 SDK** ou supérieur
+- **4 GB RAM** minimum (8 GB recommandé)
+- **1 GB espace disque**
+- **Carte son** compatible
 
-### Vol réaliste
-- Respectez les **procédures radio** pour plus de réalisme
-- Suivez le **plan de vol** suggéré par la navigation
-- Gérez votre **carburant** sur les longs vols
-- Adaptez votre vol à la **météo**
+### Optionnel
+- **Casque VR** (Meta Quest, HTC Vive, Valve Index)
+- **Clé API OpenAI** (pour copilote IA)
+- **Clé API OpenWeatherMap** (pour météo temps réel)
 
-## Dépannage
+### Compilation
 
-### Le lecteur d'écran ne fonctionne pas
-- Vérifiez que NVDA est bien lancé avant le simulateur
-- Redémarrez le simulateur
-- Vérifiez les paramètres d'accessibilité Windows
+```bash
+# Cloner le dépôt
+git clone https://github.com/Fuzatifan/SimulateurVolFR.git
+cd SimulateurVolFR
 
-### Pas de son
-- Vérifiez que votre carte son est bien configurée
-- Vérifiez le volume dans les paramètres audio du simulateur
-- Redémarrez l'application
+# Restaurer les dépendances
+dotnet restore src/SimulateurVolFR.csproj
 
-### L'avion ne répond pas aux commandes
-- Vérifiez que les moteurs sont démarrés
-- Vérifiez que vous avez suffisamment de vitesse
-- Vérifiez que le pilote automatique n'est pas activé
+# Compiler
+dotnet build src/SimulateurVolFR.csproj -c Release
 
-### Performances lentes
-- Fermez les autres applications
-- Réduisez la qualité audio dans les paramètres
-- Vérifiez que votre système répond aux exigences minimales
+# Exécuter
+dotnet run --project src/SimulateurVolFR.csproj
+```
 
-## Support et communauté
+## 📖 Documentation
 
-### Obtenir de l'aide
-- Consultez la documentation complète dans le dossier `docs`
-- Visitez le forum de la communauté
-- Contactez le support technique
+- **[README.md](README.md)** - Vue d'ensemble et guide utilisateur
+- **[INSTALLATION.txt](docs/INSTALLATION.txt)** - Guide d'installation détaillé
+- **[GUIDE_RADIO.md](docs/GUIDE_RADIO.md)** - Guide des communications radio
+- **[GUIDE_COPILOTE.md](docs/GUIDE_COPILOTE.md)** - Guide du copilote virtuel
+- **[AMELIORATIONS_RECOMMANDEES.md](docs/AMELIORATIONS_RECOMMANDEES.md)** - Feuille de route
 
-### Contribuer
-Ce projet est open source. Les contributions sont les bienvenues :
-- Rapporter des bugs
-- Suggérer des améliorations
-- Ajouter des traductions
-- Contribuer au code
+### Livraisons par version
+- **[v3.0](docs/LIVRAISON_SimulateurVolFR_v3.0.md)** - Sons, tutoriel, météo, missions
+- **[v3.1](docs/LIVRAISON_SimulateurVolFR_v3.1.md)** - Communications radio
+- **[v3.2](docs/LIVRAISON_SimulateurVolFR_v3.2.md)** - Copilote virtuel IA
+- **[v3.3](docs/LIVRAISON_SimulateurVolFR_v3.3.md)** - Mode VR + Compagnie aérienne
+- **[v3.4](docs/LIVRAISON_SimulateurVolFR_v3.4.md)** - École de pilotage
 
-## Licence
+## 🎮 Utilisation
 
-Ce logiciel est distribué sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+### Commandes de base
+- **Flèches** : Contrôles de vol (tangage, roulis)
+- **A/Z** : Manette des gaz
+- **Q/D** : Palonnier (lacet)
+- **G** : Train d'atterrissage
+- **F** : Volets
+- **Espace** : Freins
 
-## Crédits
+### Commandes avancées
+- **C** : Parler au copilote
+- **Ctrl+R** : Menu radio
+- **A** : Écouter ATIS
+- **M** : Menu missions
+- **E** : Menu école de pilotage
+- **L** : Menu compagnie aérienne
+- **V** : Activer/désactiver VR
 
-Développé avec passion pour offrir une expérience de vol accessible à tous.
+### Navigation
+- **Tab** : Élément suivant
+- **Shift+Tab** : Élément précédent
+- **Entrée** : Activer
+- **Échap** : Retour/Annuler
 
-**Remerciements spéciaux** :
-- À la communauté NVDA pour leur excellent lecteur d'écran
-- Aux testeurs aveugles et malvoyants pour leurs retours précieux
-- À tous les contributeurs du projet
+## 🏆 Fonctionnalités uniques
 
-## Version
+### Ce qui rend ce simulateur unique
 
-**Version actuelle**: 1.0.0  
-**Date de sortie**: Octobre 2025  
-**Dernière mise à jour**: Octobre 2025
+1. **Premier simulateur de vol 100% accessible aux personnes aveugles**
+   - Tout est vocalisé et navigable au clavier
+   - Audio spatial 3D pour l'orientation
+   - Descriptions détaillées de chaque élément
+
+2. **Copilote IA conversationnel**
+   - Comprend le langage naturel
+   - Adapte sa personnalité
+   - Surveille et assiste en temps réel
+
+3. **VR accessible**
+   - Descriptions vocales en VR
+   - Interactions gestuelles
+   - Utilisable sans voir
+
+4. **École de pilotage complète**
+   - Programme structuré professionnel
+   - Instructeur exigeant
+   - Licences officielles
+
+5. **Mode compagnie aérienne**
+   - Gestion économique réaliste
+   - Progression à long terme
+   - Stratégie et tactique
+
+## 🛠️ Technologies utilisées
+
+- **C# 11.0** - Langage principal
+- **.NET 8.0** - Framework
+- **Windows Forms** - Interface utilisateur
+- **System.Speech** - Synthèse vocale
+- **OpenXR** - Support VR
+- **SQLite** - Base de données
+- **OpenAI API** - Copilote IA
+- **OpenWeatherMap API** - Météo temps réel
+
+## 📈 Statistiques du projet
+
+- **21 fichiers C#** (~8900 lignes)
+- **6 guides complets** (~2000 lignes de documentation)
+- **32 sons** (moteurs + radio)
+- **100 sites** (aéroports + aérodromes)
+- **42 appareils** (avions + hélicoptères)
+- **15 leçons** (école de pilotage)
+- **13 missions** (scénarios)
+
+## 🗺️ Roadmap
+
+### Version 3.5 (Prochaine)
+- [ ] Leçons CPL complètes
+- [ ] Leçons ATPL
+- [ ] Certificats imprimables
+- [ ] Carnet de vol électronique
+
+### Version 4.0 (Future)
+- [ ] Multijoueur
+- [ ] Examens théoriques (QCM)
+- [ ] Plus de routes (100+)
+- [ ] Événements économiques
+
+Voir [AMELIORATIONS_RECOMMANDEES.md](docs/AMELIORATIONS_RECOMMANDEES.md) pour la liste complète.
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à :
+- Signaler des bugs
+- Proposer des améliorations
+- Soumettre des pull requests
+- Améliorer la documentation
+
+## 📝 Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## 👥 Auteur
+
+**Développé par Manus AI** pour Fuzatifan
+
+## 🙏 Remerciements
+
+- **Eurofly 3** pour l'inspiration
+- **Communauté de l'aviation accessible**
+- **OpenAI** pour l'API GPT-4
+- **OpenWeatherMap** pour l'API météo
+
+## 📞 Contact
+
+Pour toute question ou suggestion :
+- **GitHub Issues** : [https://github.com/Fuzatifan/SimulateurVolFR/issues](https://github.com/Fuzatifan/SimulateurVolFR/issues)
+- **Discussions** : [https://github.com/Fuzatifan/SimulateurVolFR/discussions](https://github.com/Fuzatifan/SimulateurVolFR/discussions)
 
 ---
 
-**Bon vol et profitez de l'expérience !** ✈️
+**Bon vol ! 🛩️✈️🚁**
 
